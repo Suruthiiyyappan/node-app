@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: kammana/nodeapp
+  repository: 642000/nodeapp
   tag: v1
   pullPolicy: IfNotPresent
 
