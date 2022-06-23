@@ -1,6 +1,6 @@
 ---
 
-- hosts: 172.31.12.137
+- hosts: 172.31.91.130
   become: True
   tasks:
     - name: install pip
@@ -23,5 +23,5 @@
     - name: Create  container
       docker_container:
         name: nodeapp
-        image: kammana/node-app:{{tag}}
+        image: 642000/node-app:{{tag}}
         published_ports: ["8080:8080"]
